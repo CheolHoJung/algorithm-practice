@@ -1,4 +1,4 @@
-# algorithm-practice
+algorithm-practice
 
 위에서 아래 순서대로 진행할 것을 권장
 
@@ -9,18 +9,11 @@
 
 총 4주 (그리디 전까지 2주, 그리디/완전탐색 2주)안에 완료하는 것을 목표로 잡는 것이 좋다.
 
-> 취소선은 작성자가 완료한 문제를 표기한 것 뿐입니다.
-
-### 입출력
-
-$$
-
-$$
-
+> 취소선은 작성자가 완료한 문제를 표기한 것일 뿐, 아무 의미 없습니다.
 
 
 ### 입출력
-[~~2557~~](https://www.acmicpc.net/problem/2557), [~~1000~~](https://www.acmicpc.net/problem/1000), [2558](https://www.acmicpc.net/problem/2558), [~~10950~~](https://www.acmicpc.net/problem/10950), [~~10951~~](https://www.acmicpc.net/problem/10951), [~~10952~~](https://www.acmicpc.net/problem/10952), [~~10953~~](https://www.acmicpc.net/problem/10953), [~~11021~~](https://www.acmicpc.net/problem/11021), [~~11022~~](https://www.acmicpc.net/problem/11022), [~~11718~~](https://www.acmicpc.net/problem/11718), [~~11719~~](https://www.acmicpc.net/problem/11719), [~~11720~~](https://www.acmicpc.net/problem/11720), [~~11721~~](https://www.acmicpc.net/problem/11721), [~~2741~~](https://www.acmicpc.net/problem/2741), [~~2742~~](https://www.acmicpc.net/problem/2742), [~~2739~~](https://www.acmicpc.net/problem/2739), [~~1924~~](https://www.acmicpc.net/problem/1924), [~~8393~~](https://www.acmicpc.net/problem/8393), [~~10818~~](https://www.acmicpc.net/problem/10818), [~~2438~~](https://www.acmicpc.net/problem/2438), [~~2439~~](https://www.acmicpc.net/problem/2439), [~~2440~~](https://www.acmicpc.net/problem/2440), [~~2441~~](https://www.acmicpc.net/problem/2441), [~~2442~~](https://www.acmicpc.net/problem/2442), [~~2445~~](https://www.acmicpc.net/problem/2445), [~~2522~~](https://www.acmicpc.net/problem/2522), [~~2446~~](https://www.acmicpc.net/problem/2446), [~~10991~~](https://www.acmicpc.net/problem/10991), [~~10992~~](https://www.acmicpc.net/problem/10992)
+[~~2557~~](https://www.acmicpc.net/problem/2557), [~~1000~~](https://www.acmicpc.net/problem/1000), [~~2558~~](https://www.acmicpc.net/problem/2558), [~~10950~~](https://www.acmicpc.net/problem/10950), [~~10951~~](https://www.acmicpc.net/problem/10951), [~~10952~~](https://www.acmicpc.net/problem/10952), [~~10953~~](https://www.acmicpc.net/problem/10953), [~~11021~~](https://www.acmicpc.net/problem/11021), [~~11022~~](https://www.acmicpc.net/problem/11022), [~~11718~~](https://www.acmicpc.net/problem/11718), [~~11719~~](https://www.acmicpc.net/problem/11719), [~~11720~~](https://www.acmicpc.net/problem/11720), [~~11721~~](https://www.acmicpc.net/problem/11721), [~~2741~~](https://www.acmicpc.net/problem/2741), [~~2742~~](https://www.acmicpc.net/problem/2742), [~~2739~~](https://www.acmicpc.net/problem/2739), [~~1924~~](https://www.acmicpc.net/problem/1924), [~~8393~~](https://www.acmicpc.net/problem/8393), [~~10818~~](https://www.acmicpc.net/problem/10818), [~~2438~~](https://www.acmicpc.net/problem/2438), [~~2439~~](https://www.acmicpc.net/problem/2439), [~~2440~~](https://www.acmicpc.net/problem/2440), [~~2441~~](https://www.acmicpc.net/problem/2441), [~~2442~~](https://www.acmicpc.net/problem/2442), [~~2445~~](https://www.acmicpc.net/problem/2445), [~~2522~~](https://www.acmicpc.net/problem/2522), [~~2446~~](https://www.acmicpc.net/problem/2446), [~~10991~~](https://www.acmicpc.net/problem/10991), [~~10992~~](https://www.acmicpc.net/problem/10992)
 
 ### DP
 [~~1463~~](https://www.acmicpc.net/problem/1463), [~~11726~~](https://www.acmicpc.net/problem/11726), [~~11727~~](https://www.acmicpc.net/problem/11727), [~~9095~~](https://www.acmicpc.net/problem/9095), [~~10844~~](https://www.acmicpc.net/problem/10844), [~~11057~~](https://www.acmicpc.net/problem/11057), [2193](https://www.acmicpc.net/problem/2193), [9465](https://www.acmicpc.net/problem/9465), [2156](https://www.acmicpc.net/problem/2156), [11053](https://www.acmicpc.net/problem/11053), [11055](https://www.acmicpc.net/problem/11055), [11722](https://www.acmicpc.net/problem/11722), [11054](https://www.acmicpc.net/problem/11054), [1912](https://www.acmicpc.net/problem/1912), [2579](https://www.acmicpc.net/problem/2579), [1699](https://www.acmicpc.net/problem/1699), [2133](https://www.acmicpc.net/problem/2133), [9461](https://www.acmicpc.net/problem/9461), [2225](https://www.acmicpc.net/problem/2225), [2011](https://www.acmicpc.net/problem/2011), [11052](https://www.acmicpc.net/problem/11052)
