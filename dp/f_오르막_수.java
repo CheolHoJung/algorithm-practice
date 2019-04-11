@@ -6,7 +6,7 @@ import java.io.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class 오르막_수 {
+public class f_오르막_수 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

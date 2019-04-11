@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class dp_1로만들기 {
+public class a_dp_1로만들기 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -24,6 +24,9 @@ public class dp_1로만들기 {
             .isEqualTo(19);
     }
 
+    // dp[i] = Math.min(dp[i - 1] + 1)
+    // ? i % 2 == 0 -> Math.min(dp[i], dp[i / 2])
+    // ? i % 3 == 0 -> Math.min(dp[i], dp[i / 3])
     private static int solutionDp(int X) {
         int[] dp = new int[1000001];
         dp[2] = dp[3] = 1;

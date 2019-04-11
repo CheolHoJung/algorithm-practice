@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class 스티커 {
+public class h_스티커 {
     static int[][] dp = new int[2][100_001];
 
     public static void main(String[] args) throws IOException {
@@ -57,6 +57,8 @@ public class 스티커 {
     // 그러나, 세칸의 경우를 보면 (위, 아래, 위) 혹은 (아래, 위, 아래)와 같이 한칸씩 이동해서도 도달할 수 있음
     // 세칸을 한번에 이동한 것보다 한칸씩 3번 이동하면서 더한 값이 더 큰게 당연하므로, 한칸 혹은 두칸만 고려하면 됨
     // dp[0 || 1][i] = Math.max(한칸 전, 두칸 전) + a[i]
+    // dp[0] -> 위에서 시작
+    // dp[1] -> 밑에서 시작
     private static int solution2(int n, int[][] numbers) {
         dp[0][0] = dp[1][0] = 0;
         dp[0][1] = numbers[0][0];

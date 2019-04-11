@@ -10,7 +10,7 @@ import java.util.Stack;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class 더하기_1_2_3 {
+public class d_더하기_1_2_3 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

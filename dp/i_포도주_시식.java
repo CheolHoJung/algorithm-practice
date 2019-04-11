@@ -2,7 +2,7 @@ package test.boj.dp;
 
 import java.io.*;
 
-public class 포도주_시식 {
+public class i_포도주_시식 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

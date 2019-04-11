@@ -6,7 +6,7 @@ import java.io.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class 쉬운_계단_수 {
+public class e_쉬운_계단_수 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -38,6 +38,8 @@ public class 쉬운_계단_수 {
 //    7 -> 76, 78 -> 765, 767, 787, 789
 //    8 -> 87, 89 -> 876, 878, 898
 //    9 -> 98 -> 987, 989
+//    N -> 길이 N, L -> 마지막 숫자가 L인 경우
+//    dp[N][L] -> 길이가 N 이면서, 마지막 숫자가 L인 경우의 수
 //    1. 끝자리에 +- 1수를 추가 -> dp[N][L] = dp[N - 1][L - 1] + dp[N - 1][L + 1]
 //    2. 끝자리가 0인 경우 +1만 추가 -> dp[N][L] = dp[N - 1][L + 1]
 //    3. 끝 자리가 9인 경우 -1만 추가 -> dp[N][L] = dp[N - 1][L - 1]
@@ -51,7 +53,7 @@ public class 쉬운_계단_수 {
         }
 
         for (int i = 2; i <= N; i++) {
-            // 점화식1
+            // 점화식2
             dp[i][0] = dp[i - 1][1];
             for (int j = 1; j <= 9; j++) {
                 // 점화식 1, 3

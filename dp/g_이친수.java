@@ -9,7 +9,7 @@ import java.util.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class 이친수 {
+public class g_이친수 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println(solution2(Integer.parseInt(br.readLine())));

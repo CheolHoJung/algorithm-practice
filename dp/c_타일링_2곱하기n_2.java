@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-// refer images/타일링_2곱하기n_2.png
-public class 타일링_2곱하기n_2 {
+// refer images/c_타일링_2곱하기n_2.png
+public class c_타일링_2곱하기n_2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

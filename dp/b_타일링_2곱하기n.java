@@ -4,7 +4,7 @@ import org.junit.*;
 
 import java.util.Scanner;
 
-public class 타일링_2곱하기n {
+public class b_타일링_2곱하기n {
 
     @Test
     public void test() {

@@ -1,9 +1,13 @@
 package test.boj.dp;
 
+import org.junit.*;
+
 import java.io.*;
 import java.util.Arrays;
 
-public class 가장_긴_증가_부분_수열 {
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class j_가장_긴_증가_부분_수열 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -18,11 +22,11 @@ public class 가장_긴_증가_부분_수열 {
         bw.close();
     }
 
-//    @Test
-//    public void test() {
-//        assertThat(solution(6, new int[]{0, 10, 20, 10, 30, 20, 50}))
-//            .isEqualTo(4);
-//    }
+    @Test
+    public void test() {
+        assertThat(solution(6, new int[]{0, 10, 20, 10, 30, 20, 50}))
+            .isEqualTo(4);
+    }
 
     // 자신보다 작은 숫자들의 부분수열에서 길이가 가장 큰 경우를 구해야 한다. -> dp[i - 1], Math.max 사용
     // 자신보다 작은 숫자들의 부분수열에서 길이가 같은 경우는 하나만 선택해도 상관없다.
@@ -44,13 +48,13 @@ public class 가장_긴_증가_부분_수열 {
         return maxLength;
     }
 
-    private static int maxLengthOfSmallerNumbers(int[] dp, int[] numbers, int i) {
+    private static int maxLengthOfSmallerNumbers(int[] dpOfLength, int[] numbers, int i) {
         int result = 0;
         int now = numbers[i];
         for (int j = 1; j < i; j++) {
             int prev = numbers[j];
             if (now > prev) {
-                result = Math.max(result, dp[j]);
+                result = Math.max(result, dpOfLength[j]);
             }
         }
         return result;
